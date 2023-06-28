@@ -1,0 +1,88 @@
+.about {
+    background-color: black;
+    color: white;
+    position: flex;
+    border-bottom: solid 1px #703CA5;
+    font-family: 'Inter', sans-serif;
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .tableInfo {
+        display: flex;
+        height: 600px;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+        margin-bottom: 39px;
+    }
+
+    .secondGridInfo {
+        width: 480px;
+        height: 480px;
+        text-align: left;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        vertical-align: top;
+        display: flex;
+        align-items: center;
+    }
+    
+    .firstGridTableInfo {
+        width: 480px;
+        height: 80px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 35px;
+        color: #703CA5;
+        margin-top: 39px;
+
+    }
+
+    .blockOfInfo {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    .about {
+
+        .tableInfo {
+            display: flex;
+            width: 100%;
+            height: 600px;
+            margin-top: 0%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 39px;
+        }
+    
+        .secondGridInfo {
+            width: 283px;
+            height: 520px;
+            text-align: left;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: center;
+            vertical-align: top;
+            display: flex;
+            align-items: center;
+        }
+        
+        .firstGridTableInfo {
+            width: 283px;
+            height: 80px;
+            text-align: center;
+            font-size: 22px;
+            line-height: 35px;
+            color: #703CA5;
+            margin-top: 5px;
+    
+        }
+
+    }
+}

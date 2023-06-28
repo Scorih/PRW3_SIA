@@ -1,0 +1,374 @@
+.home_page {
+    background-color: black;
+    color: white;
+    border-bottom: solid 1px #703CA5;
+    position: flex;
+    font-family: 'Inter', sans-serif;
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    h3 {
+        flex: 1;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 1080px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .popimg {
+        flex: 1;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 66px;
+    }
+
+    .blockOfPopularity {
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .headOfBlock {
+        margin-top: 34px;
+        color: #703CA5;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 34px;
+    }
+
+    .poptext {
+        flex: 1;
+        margin-top: 1%;
+        margin-right: 15%;
+        margin-left: 15%;
+        text-align: center;
+        width: 100+"%";
+        font-size: 22px;
+    }
+
+    .table {
+        display: flex;
+        height: 1930px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1240px;
+        margin-bottom: 125px;
+
+        >.firstLineTable {
+            border: solid 1px #703CA5;
+        }
+
+        >.secondLineTable {
+            border: solid 1px #703CA5;
+        }
+
+        >.thirdLineTable {
+            border: solid 1px #703CA5;
+        }
+    }
+
+    .smallGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .medGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .bigGrid {
+        width: 620px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .firstSmallGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 38px;
+    }
+
+    .firstMedGrid {
+        width: 310px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 38px;
+    }
+
+    .firstBigGrid {
+        width: 620px;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 22px;
+        color: #703CA5;
+        margin-top: 38px;
+    }
+
+    .blockOfGames {
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .gallery {
+        width: 1227px;
+        height: 2072px;
+        background-color: grey;
+        border: solid 1px #703CA5;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .img {
+        margin: 10px;
+    }
+
+    .blockOfGallery {
+        height: 2300px;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    .tableBF {
+        display: flex;
+        height: 800px;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 76px;
+
+        >.firstLineTableBF {
+            border: solid 1px #703CA5;
+        }
+
+        >.secondLineTableBF {
+            border: solid 1px #703CA5;
+        }
+
+    }
+
+    .firstGridBF {
+        width: 400px;
+        height: 700px;
+        text-align: left;
+        font-size: 30px;
+        line-height: 35px;
+        >ul {
+            margin-top: -30px;
+            >li {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+                list-style-type: decimal;
+            }
+        }
+    }
+
+    .secondGridBF {
+        width: 400px;
+        height: 700px;
+        text-align: left;
+        font-size: 30px;
+        line-height: 35px;
+        >ul {
+            margin-top: -30px;
+            >li {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+                list-style-type: decimal;
+            }
+        }
+    }
+    
+    .firstGridTableBF {
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        font-size: 30px;
+        color: #703CA5;
+        margin-top: 39px;
+
+    }
+
+    .blockOfBF {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .home_page {
+        
+        h3 {
+            flex: 1;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 45%;
+            width: 90%;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            line-height: 35px;
+        }
+
+        .headOfBlock {
+            margin-top: 21px;
+            color: #703CA5;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 21px;
+        }
+
+        .poptext {
+            flex: 1;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            font-size: 22px;
+            line-height: 40px;
+        }
+
+        .table {
+            display: flex;
+            height: 1902px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            margin-bottom: 178px;
+    
+            >.firstLineTable {
+                flex: 1;
+                margin-bottom: -39px;
+                border: solid 1px #703CA5;
+            }
+    
+            >.secondLineTable {
+                flex: 1;
+                margin-bottom: -39px;
+                border: solid 1px #703CA5;
+            }
+    
+            >.thirdLineTable {
+                flex: 1;
+                margin-bottom: -39px;
+                border: solid 1px #703CA5;
+            }
+        }
+
+        .firstMedGrid {
+            width: 170px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            color: #703CA5;
+            margin-top: 39px;
+        }
+
+        .medGrid {
+            width: 170px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .firstSmallGrid {
+            width: 74px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 18px;
+            line-height: 20px;
+            color: #703CA5;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+
+        .smallGrid {
+            width: 74px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .firstBigGrid {
+            width: 556px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 22px;
+            line-height: 40px;
+            color: #703CA5;
+            margin-top: 39px;
+        }
+
+        .bigGrid {
+            width: 556px;
+            height: 100px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 18px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .gallery {
+            width: 100%;
+            height: 1450px;
+            background-color: #2F2F2F;
+            border: solid 1px #703CA5;
+            margin-left: auto;
+            margin-right: auto;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+
+        .blockOfGallery {
+            height: 1560px;
+            border-bottom: solid 1px #703CA5;
+        }
+
+
+    }
+
+}

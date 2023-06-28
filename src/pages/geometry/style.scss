@@ -1,0 +1,341 @@
+.geometry {
+    background-color: black;
+    color: white;
+    position: flex;
+    border-bottom: solid 1px #703CA5;
+    font-family: 'Inter', sans-serif;
+
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    h3 {
+        flex: 1;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 1080px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Block1 {
+        display: flex;
+        height: 401px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        margin-top: 20px;
+        width: 1140px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin-top: 20px;
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+
+    .Block2 {
+        height: 718px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        width: 1075px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+
+    .Block3 {
+        display: flex;
+        height: 347px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 1030px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 410px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block4 {
+        display: flex;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 568px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 872px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    .Block5 {
+        height: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        width: 1145px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+    
+    .Block6 {
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 22px;
+        }
+    }
+
+}
+
+@media (max-width: 850px) {
+    .geometry {
+
+        h3 {
+            flex: 1;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 52%;
+            width: 90%;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .Block1 {
+            display: flex;
+            height: 401px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            margin-top: 20px;
+            width: 659px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            }
+    
+            .pic {
+                margin-top: 20px;
+                width: 191px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+
+                img {
+                    width: 114px;
+                    height: 366px;
+                    }
+            }
+        }
+
+        .Block2 {
+            height: 534px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .pic {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+                img {
+                    width: 767px;
+                    height: 480px;
+                }
+            }
+        }
+
+        .Block3 {
+            display: flex;
+            height: 267px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 549px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 22px;
+            }
+    
+            .pic {
+                width: 301px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+                img {
+                    width: 246px;
+                    height: 228px;
+                }
+
+            }
+        }
+
+        .Block4 {
+            height: 254px;
+            width: 100%;
+    
+            .text {
+            width: 402px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            }
+    
+            .pic {
+                width: 448px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+
+                img {
+                    width: 432px;
+                    height: 233px;
+                }
+
+            }
+        }
+
+        .Block5 {
+            height: 490px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .pic {
+                width: 850px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+
+                img {
+                    width: 810px;
+                    height: 460px;
+                }
+            }
+        }
+
+        .Block6 {
+            height: 275px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 100%;
+            height: 275px;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 22px;
+            }
+        }
+        
+    }
+}
+

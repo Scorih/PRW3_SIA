@@ -1,0 +1,399 @@
+.light {
+    background-color: black;
+    color: white;
+    position: flex;
+    border-bottom: solid 1px #703CA5;
+    font-family: 'Inter', sans-serif;
+
+
+    .text-and-image1 {
+        flex: 1;
+        border-bottom: solid 1px #703CA5;
+    }
+
+    h3 {
+        flex: 1;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 1080px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Block1 {
+        display: flex;
+        height: 401px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        margin-top: 20px;
+        width: 1240px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        margin-top: 20px;
+        width: 200px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block2 {
+        display: flex;
+        height: 401px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 1140px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block3 {
+        display: flex;
+        height: 525px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 777px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        display: flex;
+        width: 663px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block4 {
+        display: flex;
+        height: 525px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 777px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 663px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block5 {
+        display: flex;
+        height: 525px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .text {
+        width: 777px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 663px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block6 {
+        height: 1034px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+
+        .pic {
+        width: 1359px;
+        height: 960px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+    .Block7 {
+        display: flex;
+        height: 515px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+
+        .text {
+        width: 777px;
+        height: 515px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        }
+
+        .pic {
+        width: 663px;
+        height: 515px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    }
+
+}
+
+@media (max-width: 850px) {
+    .light {
+
+        h3 {
+            flex: 1;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 49%;
+            width: 90%;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+        }
+        
+        .Block1 {
+            height: 401px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 850px;
+    
+            .text {
+            width: 776px;
+            height: 401px;
+            font-size: 22px;
+            }
+    
+            .pic {
+            width: 74px;
+            height: 401px;
+            text-align: center;
+            vertical-align: middle;
+            }
+
+        }
+
+        .Block2 {
+            display: flex;
+            height: 401px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 850px;
+    
+            .text {
+            width: 601px;
+            height: 401px;
+            text-align: center;
+            vertical-align: middle;
+            align-items: center;
+            font-size: 22px;
+            line-height: 27px;
+            margin: 10px;
+            }
+    
+            .pic {
+            width: 250px;
+            height: 401px;
+            text-align: center;
+            vertical-align: middle;
+            }
+        }
+
+        .Block3 {
+            height: 379px;
+            width: 850px;
+    
+            .text {
+            width: 373px;
+            height: 379px;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-right: 10px;
+            }
+    
+            .pic {
+            width: 478px;
+            height: 379px;
+            text-align: center;
+            vertical-align: middle;
+
+            img {
+                width: 432px;
+                height: 320px;
+                }
+            }
+        }
+        
+        .Block4 {
+            display: flex;
+            height: 382px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+            width: 389px;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            }
+    
+            .pic {
+            width: 448px;
+            height: 334px;
+            text-align: center;
+            vertical-align: middle;
+
+            img {
+                width: 448px;
+                height: 334px;
+                }
+            }
+        }
+
+        .Block5 {
+            display: flex;
+            height: 389px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+                width: 354px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                line-height: 22px;
+            }
+    
+            .pic {
+                margin-top: 34px;
+                width: 496px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+
+                img {
+                    width: 440px;
+                    height: 329px;
+                }
+            }
+        }
+
+        .Block6 {
+            height: 602px;
+            width: 100%;
+    
+            .pic {
+                width: 766px;
+                height: 541px;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+
+            img {
+                width: 766px;
+                height: 541px;
+                }
+            }
+        }
+
+        .Block7 {
+            display: flex;
+            height: 352px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+    
+            .text {
+                width: 377px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+                display: flex;
+                align-items: center;
+                margin-top: auto;
+                margin-bottom: auto;
+                font-size: 16px;
+            }
+    
+            .pic {
+                width: 473px;
+                height: 100%;
+                text-align: center;
+                vertical-align: middle;
+
+                img {
+                    width: 465px;
+                    height: 345px;
+                }
+            }
+        }
+
+    }
+}

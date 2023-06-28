@@ -1,0 +1,115 @@
+.header {
+    background-color: black;
+    display: flex;
+    border-bottom: solid 1px #703CA5;
+
+    &__menu{
+        flex: 3;
+        display: flex;
+        left: 50%;
+
+        >div{
+        flex: 1;
+        text-align: center;
+        margin-top: 40px;
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+            font-family: 'Inter', sans-serif;
+        }
+        a:hover {
+            font-weight: 600;
+            opacity: 0.8;
+        }
+        }
+    }
+
+    &__logo{
+        flex: 1;
+
+    }
+
+    .headermobile__menu {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 850px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        border-bottom: solid 1px #703CA5;
+
+        .header__logo {
+            display: none;
+        }
+        .header__menu {
+            display: none;
+        }
+
+            .headermobile__menu {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                &__logo {
+                    display: flex;
+                }
+
+                &__burger {
+                    flex-direction: row-reverse;
+                    display: flex;
+                }
+
+            }
+
+            .headermobile__burger {
+                position: absolute;
+              }
+
+            .headermobile__burger_open {
+                position: absolute;
+                width: 300px;
+                margin-left: calc(100% - 300px);
+                margin-top: 214px;
+                height: 110px;
+                max-height: 2000px;
+                
+                
+                >div{
+                    text-align: center;
+                    background-color: #1B1B1B;
+                    border: solid 1px #656565;
+            
+                    a {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 50px;
+                        color: white;
+                        text-decoration: none;
+                        transition: 0.3s;
+                        font-family: 'Inter', sans-serif;
+                    }
+                    a:hover {
+                        font-weight: 600;
+                        opacity: 0.8;
+                    }
+                    }
+                }
+
+            
+
+    }
+
+}
